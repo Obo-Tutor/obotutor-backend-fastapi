@@ -6,15 +6,17 @@ To run it.
 python -m venv env
 env/Scripts/activate
 
-2. Then add dependencies
+3.Create a .env file inside the directory you're working with and add GOOGLE_API_KEY ="Your_API_key" inside it
+
+4. Then add dependencies
 
 pip install -r requirements.txt
 
-3.  run server
+5.  run server
 
 uvicorn model:app --reload
 
-4. do to the swagger window
+6. do to the swagger window
 
 type on browser
 
